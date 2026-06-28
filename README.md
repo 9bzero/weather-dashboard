@@ -1,34 +1,18 @@
-# Weather Dashboard
+# weather-dashboard
 
-7-day weather forecast dashboard powered by the Open-Meteo API — search any city worldwide.
+7-day weather forecast using the Open-Meteo API. No API key needed.
 
 ## Features
 
 - Current conditions: temperature, humidity, wind speed, UV index
-- Hourly forecast chart (24h)
-- 7-day daily forecast with high/low
-- Weather condition icons and descriptions
-- Sunrise and sunset times
-- Air quality index
-- Toggle Celsius / Fahrenheit
+- 7-day forecast with daily high/low
+- Hourly temperature chart (Recharts)
+- Search by city name (geocoded via Open-Meteo's geocoding API)
+- Auto-detects location on first load (browser geolocation)
+- Temperature unit toggle (°C / °F)
 
-## APIs used
-
-- **Open-Meteo** — free, no API key required
-- **Nominatim (OpenStreetMap)** — city geocoding
-
-## Stack
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61dafb?style=flat&logo=react&logoColor=black)
-![Recharts](https://img.shields.io/badge/Recharts-22c55e?style=flat)
-![Vite](https://img.shields.io/badge/Vite-646cff?style=flat&logo=vite&logoColor=white)
-
-## Run locally
+## Run
 
 ```bash
 npm install && npm run dev
 ```
-
----
-Made by [9bzero](https://github.com/9bzero)
